@@ -1,6 +1,6 @@
-FROM debian
+FROM debian:bookworm-slim
 
-LABEL MAINTAINER Weltongbi <weltongbi@gmail.com>
+LABEL MAINTAINER Glowman554 <janick@toxicfox.de>
 
 ENV SINUS_USER="sinusbot" \
     SINUS_GROUP="sinusbot" \

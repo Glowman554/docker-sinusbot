@@ -22,12 +22,12 @@ This container provides a sinusbot instance and updated youtube-dl for yt-dlp.
 
 ## Download / Update
 ```sh
-docker push weltongbi/sinusbot:lastet
+docker push glowman554/sinusbot:lastet
 ```
 
 ## Usage
 ```sh
-$ docker run -d -v /home/sinusbot/data:/sinusbot/data -p 8087:8087 --name sinusbot weltongbi/siniusbot:lastet
+$ docker run -d -v /home/sinusbot/data:/sinusbot/data -p 8087:8087 --name sinusbot glowman554/siniusbot:lastet
 ```
 
 - ``` /home/sinusbot/data ``` is the directory on your local machine where your bot files will be stored
